@@ -1,6 +1,6 @@
 ---
 layout: default
-title: The Rust Team &middot; The Rust Programming Language
+title: L'équipe Rust &middot; Le langage de programmation Rust
 
 # map from GH username to name & irc nick (irc nick can be omitted if it
 # matches GH).
@@ -120,14 +120,14 @@ teams:
     responsibility: "coordinating events, outreach, commercial users, teaching materials, and exposure"
     lead: erickt
     members: [brson, skade, manishearth, johannhof, steveklabnik, carols10cents, badboy, booyaa, bstrie, erickt, jonathandturner, edunham]
-    email: community-team [at] rust-lang [dot] org
+    email: community-team@rust-lang.org
   - name: Documentation team
     responsibility: "ensuring Rust has fantastic documentation"
     members: [steveklabnik, GuillaumeGomez, jonathandturner, peschkaj]
   - name: Moderation team
     responsibility: "helping uphold the <a href='https://www.rust-lang.org/conduct.html'>code of conduct</a>"
     members: [mbrubeck, BurntSushi, manishearth, pnkfelix, niconii]
-    email: rust-mods [at] rust-lang [dot] org
+    email: rust-mods@rust-lang.org
   - name: Rust team alumni
     responsibility: "enjoying a leisurely retirement"
     members: [Gankro, huonw]
@@ -179,23 +179,24 @@ sites:
 }
 </style>
 
-# The Rust Team
+# L'équipe Rust
 
-The Rust project is
-[governed](https://github.com/rust-lang/rfcs/blob/master/text/1068-rust-governance.md)
-by a number of teams, each focused on a specific area of concern. Below are
-the rosters, in alphabetical order.
+Le projet Rust est
+[gouverné](https://github.com/rust-lang/rfcs/blob/master/text/1068-rust-governance.md)
+par plusieurs équipes, chacune ciblée sur un domaine particulier. Ci-dessous
+les listes triées par ordre alphabétique.
 
-To contact a team, post your question or comment to [the Internals
-forum](https://internals.rust-lang.org/) and tag your post with the category
-corresponding to the team name. Note that security disclosures should follow
-the [Rust security disclosure process](security.html). 
+Pour contacter une équipe, publiez vos questions et commentaires sur le [forum
+Internals](https://internals.rust-lang.org/) et étiquettez vos publications
+avec la catégorie correspondant au nom de l'équipe.  Notez que toute révélation
+liée à la sécurité doit respecter le [processus de divulgation de sécurité de
+Rust](security.html).
 
 {% for team in page.teams %}
 <section id="{{ team.name | replace:' ','-' }}">
 <h2> {{ team.name }} </h2>
 
-<strong>Responsibility</strong>: <em>{{ team.responsibility }}</em>
+<strong>Responsabilité</strong>: <em>{{ team.responsibility }}</em>
 
 <br />
 
